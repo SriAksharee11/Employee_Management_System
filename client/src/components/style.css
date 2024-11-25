@@ -1,0 +1,83 @@
+.loginPage {
+    background: #220e24; 
+    background-image: url('../assets/bg3.png'); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginForm {
+    background-color: #220e24; 
+    color: white;
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    width: 300px; 
+
+}
+
+.loginForm h2 {
+    color: #ffc107; 
+    margin-bottom: 20px;
+}
+
+.loginForm label {
+    color: white; 
+    font-weight: bold;
+}
+
+.loginForm input {
+    background-color: hsl(300, 28%, 45%); 
+    border: none;
+    color: white;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.loginForm input:focus {
+    outline: none;
+    box-shadow: 0 0 5px #ffc107; 
+}
+
+.loginForm button {
+    background-color: #ffc107; 
+    color: black; 
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.loginForm button:hover {
+    background-color: #ffa000;
+}
+
+.loginForm .text-warning {
+    color: #ffc107; 
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.loginForm .mb-1 {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.loginForm .mb-1 label {
+    color: white; 
+}
+
+.loginForm .me-2 {
+    margin-right: 5px;
+}
+
+.loginForm .rounded-0 {
+    border-radius: 0; 
+}

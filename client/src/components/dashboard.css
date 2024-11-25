@@ -1,0 +1,29 @@
+/* home.css (or dashboard.css) */
+
+.navbar {
+    margin-bottom: 20px;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 50px; /* Adjust size of your logo */
+    height: auto;
+  }
+  
+  .dashboard-content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+  }
+  
+  .dashboard-content h1 {
+    font-size: 2rem;
+    color: #220e24; /* Match the navbar color */
+  }
+  
